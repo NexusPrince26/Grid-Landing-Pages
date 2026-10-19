@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(228, 99%, 58%);
+}
+.header{
+    display: flex;
+    border-bottom: 1px solid hsl(220, 100%, 64%);
+    padding: 15px 30px;
+}
+.header p{
+    background-color: hsl(0, 0%, 100%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.header small{
+    color: hsl(224, 100%, 95%);
+}
+.header img{
+    margin-left: 1060px;
+}
+.header img:hover{
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    padding: 150px 25px;
+    width: 500px;
+    height: 480px;
+    border-right: 1px solid hsl(220, 100%, 64%);
+    border-bottom: 1px solid hsl(220, 100%, 64%);
+}
+h1{
+    width: 65%;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 30px;
+}
+main small{
+    display: block;
+    color: hsl(224, 100%, 95%);
+    width: 84%;
+    line-height: 20px;
+}
+img{
+    width: 20px;
+}
+h3{
+    display: inline;
+    color: hsl(224, 100%, 95%);
+}
+.students, .schools, .teachers, .graduation{
+    border-right: 1px solid hsl(220, 100%, 64%);
+    border-bottom: 1px solid hsl(220, 100%, 64%);
+    width: 450px;
+    height: 240px;
+}
+.students header, .schools header, .teachers header, .graduation header{
+    padding: 20px 20px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.students footer, .schools footer, .teachers footer, .graduation footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 3px;
+    color: hsl(224, 100%, 95%);
+    padding-bottom: 20px;
+}
+.students-schools, .teachers-graduation{
+    display: flex;
+    flex-direction: row;
+}
+.container footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: hsl(224, 100%, 95%);
+}
+.students:hover, .schools:hover, .teachers:hover, .graduation:hover{
+    cursor: pointer;
+    background-color: hsl(220, 100%, 64%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
